@@ -13,6 +13,8 @@
     "common-tags": "^1.8.0",
     "discord.js": "^12.2.0",
     "dotenv": "^8.2.0",
-    "fs": "0.0.1-security"
+    "ffmpeg": "0.0.4",
+    "fs": "0.0.1-security",
+    "opusscript": "0.0.7"
   }
 }
