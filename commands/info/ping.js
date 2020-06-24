@@ -1,5 +1,5 @@
 module.exports = {
-  name: '!ping',
+  name: 'ping',
   category: 'info',
   description: 'Pings server and returns the latency for the server and API',
   run: async (client, message, args) => {

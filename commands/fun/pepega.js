@@ -1,7 +1,7 @@
 const { MessageAttachment } = require('discord.js');
 
 module.exports = {
-  name: '!pepega',
+  name: 'pepega',
   aliases: 'PEPEGA',
   category: 'fun',
   description: 'Akbar says this all the time - Twitch emote',

@@ -1,7 +1,7 @@
 const { MessageAttachment } = require('discord.js');
 
 module.exports = {
-  name: '!awwman',
+  name: 'awwman',
   category: 'fun',
   description: `Don't tell dad`,
   usage: 'Just throw in the command man',

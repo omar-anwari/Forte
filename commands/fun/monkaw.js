@@ -1,7 +1,7 @@
 const { MessageAttachment } = require('discord.js');
 
 module.exports = {
-  name: '!monkaw',
+  name: 'monkaw',
   aliases: 'monkaW',
   category: 'fun',
   description: 'Twitch emote',

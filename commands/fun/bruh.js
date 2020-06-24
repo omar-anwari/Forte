@@ -1,7 +1,7 @@
 const { MessageAttachment } = require('discord.js');
 
 module.exports = {
-  name: '!bruh',
+  name: 'bruh',
   category: 'fun',
   description: 'Bruh_Sound_Effect_2.mp4',
   usage: 'Just throw in the command man',

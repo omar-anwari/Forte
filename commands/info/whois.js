@@ -2,11 +2,11 @@ const { getMember, formatDate } = require('../../function');
 const { MessageEmbed } = require('discord.js');
 const { stripIndents } = require('common-tags');
 module.exports = {
-  name: '!whois',
+  name: 'whois',
   aliases: ['userinfo', 'user', 'who'],
   category: 'info',
   description: 'Sends out information about that user',
-  usage: '[username | id | metion]',
+  usage: '!whois [username | id | mention]',
   run: async (client, message, args) => {
     const member = getMember(message, args.join(' '));
     //   Member Vars
