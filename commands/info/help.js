@@ -16,6 +16,7 @@ module.exports = {
 };
 function getAll(client, message) {
   const embed = new MessageEmbed().setColor('#579DB3');
+  const msg = message.channel.send(`All commands require a "!" before the command name`);
   const commands = (category) => {
     return client.commands
       .filter((cmd) => cmd.category === category)
