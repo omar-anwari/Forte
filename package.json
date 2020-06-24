@@ -15,8 +15,6 @@
     "dotenv": "^8.2.0",
     "ffmpeg": "0.0.4",
     "fs": "0.0.1-security",
-    "opusscript": "0.0.7",
-    "snekfetch": "^4.0.4",
-    "ytdl-core": "^2.1.1"
+    "opusscript": "0.0.7"
   }
 }

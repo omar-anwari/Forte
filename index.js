@@ -41,7 +41,7 @@ client.on('message', async (message) => {
   if (!command) command = client.commands.get(client.aliases.get(cmd));
   if (command) command.run(client, message, args);
 });
-// Dumb thank you line
+// Dumb "secret" commands
 client.on('message', (message) => {
   if (message.content === 'Thank you Forte') {
     const msg = message.reply(`Your welcome! ☺️`);
@@ -51,6 +51,8 @@ client.on('message', (message) => {
     const msg = message.reply(`Your welcome! ☺️`);
     // .then(console.log)
     // .catch(console.error)
+  } else if (message.content === `Who's the biggest Chad?`) {
+    const msg = message.send(`of course!`);
   }
 });
 client.login(process.env.TOKEN);
