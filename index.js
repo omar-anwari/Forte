@@ -52,7 +52,7 @@ client.on('message', (message) => {
     // .then(console.log)
     // .catch(console.error)
   } else if (message.content === `Who's the biggest Chad?`) {
-    const msg = message.send(`of course!`);
+    const msg = message.channel.send(`@pervasive#1524 of course!`);
   }
 });
 client.login(process.env.TOKEN);
