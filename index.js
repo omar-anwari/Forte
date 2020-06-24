@@ -53,6 +53,8 @@ client.on('message', (message) => {
     // .catch(console.error)
   } else if (message.content === `Who's the biggest Chad?`) {
     const msg = message.channel.send(`<@595781002601955343> of course!`);
+  } else if (message.content === `Who's the biggest nerd?`) {
+    const msg = message.reply(`is the biggest fucking nerd 😘`);
   }
 });
 client.login(process.env.TOKEN);
