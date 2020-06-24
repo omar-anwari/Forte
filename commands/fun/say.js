@@ -1,6 +1,6 @@
 const { MessageEmbed } = require('discord.js');
 module.exports = {
-  name: 'say',
+  name: '!say',
   aliases: ['bc, broadcast'],
   category: 'fun',
   description: 'The bot will say whatever you say',
