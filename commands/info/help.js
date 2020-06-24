@@ -1,7 +1,7 @@
 const { MessageEmbed } = require('discord.js');
 const { stripIndents } = require('common-tags');
 module.exports = {
-  name: 'help',
+  name: '!help',
   aliases: ['h'],
   category: 'info',
   description: 'Shows all the commands or one specific command',
